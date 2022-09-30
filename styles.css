@@ -271,30 +271,9 @@ span{
   color: #bb86fc;
 }
 
-.socials {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  right: 1%;
-  bottom: 50%;
-}
 
-.socicon {
-  width: 2rem;
-  height: 2rem;
-}
 
-.scroll-up {
-  position: fixed;
-  right: 0.5%;
-  bottom: 3%;
-  cursor: pointer;
-}
 
-.up-arrow {
-  width: 3rem;
-  height: 3rem;
-}
 
 footer {
   background-color: #121212;
@@ -427,7 +406,11 @@ button a{
   margin-top: 2rem;
   background-color: #bb86fc;
   width: 25rem;
+  transition: ease-in 1s;
 
+}
+.imge:hover{
+  background-color: #121212;
 }
 .imge img{
   margin: 1rem 3rem;
